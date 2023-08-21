@@ -1,7 +1,7 @@
 import "package:flutter/material.dart";
 
 class HomePage extends StatelessWidget {
-  // const HomePage({super.key});
+  const HomePage({super.key});
 
   @override
   Widget build(BuildContext context) {
@@ -9,7 +9,7 @@ class HomePage extends StatelessWidget {
       appBar: AppBar(title: Text('Catalog')),
       body: Center(
         child: Container(
-          child: Text('Welcome to 30 days off flutter'),
+          child: Text('Welcome to 550 days off flutter'),
         ),
       ),
       drawer: Drawer(),
